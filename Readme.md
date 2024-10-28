@@ -1,14 +1,14 @@
 # Welcome to OpenSim!
 
-## OVERVIEW
+## Overview
 
 OpenSim is a BSD Licensed Open Source project to develop a functioning virtual worlds server platform capable of supporting multiple clients and servers in a heterogeneous grid structure. OpenSim is written in C#, and can run under Mono or the Microsoft .NET runtimes.
 
-**Note:** This is considered an alpha release. Some stuff works, a lot doesn’t. If it breaks, you get to keep *both* pieces.
+See the [Opensim wiki](http://opensimulator.org/wiki/Main_Page) for more details.
 
 ## Compiling OpenSim
 
-Please see [BUILDING.txt](http://opensimulator.org/wiki/BUILDING) if you downloaded a source distribution and need to build OpenSim before running it.
+See [BUILDING.txt](http://opensimulator.org/wiki/BUILDING) if you downloaded a source distribution and need to build OpenSim before running it.
 
 ## Running OpenSim on Windows
 
@@ -65,18 +65,7 @@ To log in, use the avatar details that you gave for your estate ownership or the
 
 ## Bug reports
 
-In the very likely event of bugs biting you (err, your OpenSim), we encourage you to see whether the problem has already been reported on the OpenSim mantis system. You can find the OpenSim mantis system at:
-
-    [http://opensimulator.org/mantis/main_page.php](http://opensimulator.org/mantis/main_page.php)
-
-If your bug has already been reported, you might want to add to the bug description and supply additional information.
-
-If your bug has not been reported yet, file a bug report ("opening a mantis"). Useful information to include:
-* Description of what went wrong
-* Stack trace
-* OpenSim.log (attach as file)
-* OpenSim.ini (attach as file)
-* If running under Mono: run `OpenSim.exe` with the `--debug` flag:
+If running under Mono: run `OpenSim.exe` with the `--debug` flag:
 
         mono --debug OpenSim.exe
 
